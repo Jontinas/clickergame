@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game - Moedas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>🪙 Clicker Game</h1>
+            <div class="stats">
+                <div class="stat">
+                    <span class="label">Moedas:</span>
+                    <span id="coins" class="value">0</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Por Clique:</span>
+                    <span id="coins-per-click" class="value">1</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Por Segundo:</span>
+                    <span id="coins-per-second" class="value">0</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Total de Cliques:</span>
+                    <span id="total-clicks" class="value">0</span>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="coin-section">
+                <button id="coin-button" class="coin-button">
+                    <span class="coin-emoji">🪙</span>
+                    <span class="click-text">Clique!</span>
+                </button>
+                <div id="floating-numbers"></div>
+            </div>
+
+            <div class="shop-section">
+                <h2>🏪 Loja</h2>
+                <div id="shop-items" class="shop-items">
+                    <!-- Itens da loja serão adicionados dinamicamente -->
+                </div>
+            </div>
+
+            <div class="achievements-section">
+                <h2>🏆 Conquistas</h2>
+                <div id="achievements" class="achievements">
+                    <!-- Conquistas serão adicionadas dinamicamente -->
+                </div>
+            </div>
+
+            <div class="prestige-section">
+                <h2>⭐ Prestígio</h2>
+                <div class="prestige-info">
+                    <p>Nível de Prestígio: <span id="prestige-level">0</span></p>
+                    <p>Multiplicador: <span id="prestige-multiplier">1x</span></p>
+                    <button id="prestige-button" class="prestige-button" disabled>
+                        Reset para Prestígio
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
