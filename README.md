@@ -115,5 +115,5 @@ Este é um jogo completo e funcional que oferece horas de entretenimento. O sist
 
 ---
 
-**Desenvolvido com ❤️ usando tecnologias web modernas**
+**Desenvolvido com ❤️ usando tecnologias web modernas by Manus IA**
 
